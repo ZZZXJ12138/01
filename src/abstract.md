@@ -1,0 +1,7 @@
+# 基于裁判员场地体能测试的研究综述
+
+Sara Bouzas-Rico, Vicente De Dios-Álvarez, David Suárez-Iglesias and Carlos Ayán-Pérez
+
+**摘要**：This systematic review was aimed at identifying the psychometric properties of field-based tests for assessing physical fitness in soccer referees. Electronic databases were searched up to May 2020 for studies that informed about the reliability and/or validity of at least one field-based physical fitness test for soccer referees. A total of 13 studies analysed the psychometric properties of the field-based physical fitness tests proposed by the Fédération Internationale de Football Association (FIFA) (aerobic endurance, n = 8; anaerobic endurance, n = 3; and speed, n = 8), while seven investigations focused on field-based physical fitness tests specifically designed for assessing aerobic endurance (n = 1) or change of direction (COD) (n = 6). According to the observed reliability and validity values, the Assistant Referee Intermittent Endurance test (ARIET), the 50-m sprint test and the Modified Agility test (MAT) seem, respectively, the best available options for assessing aerobic endurance, speed, and COD in soccer referees. Future investigations should consider the lack of research focusing on assistant and female referees. Further studies on the psychometric properties of anaerobic endurance and short distance speed tests are also needed.
+
+**关键词**：效度；可靠性；测试；裁判员；足球

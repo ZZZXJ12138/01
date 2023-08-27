@@ -1,0 +1,6 @@
+[book]
+authors = ["zz"]
+language = "zh"
+multilingual = false
+src = "src"
+title = "基于裁判员场地体能测试的研究综述"
