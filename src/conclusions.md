@@ -1,1 +1,3 @@
 # 结论
+
+After revising the existing evidence, we suggest using the ARIET, the 50-m sprint test and the MAT to assess cardiorespiratory fitness, speed, and COD in referees. The obtained results indicate that there is a lack of research focused on assistant and female referees, as well as on the psychometric properties of anaerobic endurance tests. This is a scientific gap that should be addressed in future studies.

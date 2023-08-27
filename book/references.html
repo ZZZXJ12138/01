@@ -1,0 +1,369 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>参考文献 - 基于裁判员场地体能测试的研究综述</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="abstract.html">摘要</a></li><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> 引言</a></li><li class="chapter-item expanded "><a href="methods.html"><strong aria-hidden="true">2.</strong> 研究对象与研究方法</a></li><li class="chapter-item expanded "><a href="results/index.html"><strong aria-hidden="true">3.</strong> 研究结果</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="results/design.html"><strong aria-hidden="true">3.1.</strong> 设计与样本</a></li><li class="chapter-item expanded "><a href="results/FIFA.html"><strong aria-hidden="true">3.2.</strong> 国际足联体能测试</a></li><li class="chapter-item expanded "><a href="results/specific.html"><strong aria-hidden="true">3.3.</strong> 其它体能测试</a></li></ol></li><li class="chapter-item expanded "><a href="dicussion.html"><strong aria-hidden="true">4.</strong> 研究讨论</a></li><li class="chapter-item expanded "><a href="conclusions.html"><strong aria-hidden="true">5.</strong> 结论</a></li><li class="chapter-item expanded affix "><a href="references.html" class="active">参考文献</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">基于裁判员场地体能测试的研究综述</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="参考文献"><a class="header" href="#参考文献">参考文献</a></h1>
+<ol>
+<li>
+<p>Ai, K., Oldrich, R., Tan, H., &amp; Xu, P. (2020). Sustainable innovation in football referee training in Czech Republic. <em>Sustainability, 12</em>(7), 2821. <a href="https://doi.org/10.3390/su12072821">https://doi.org/10.3390/su12072821</a></p>
+</li>
+<li>
+<p>Barbero-Álvarez, J. C., Boullosa, D. A., Nakamura, F. Y., Andrín, G., &amp; Castagna, C. (2012). Physical and physiological demands of field and assistant soccer referees during America’s cup. <em>Journal of Strength and Conditioning Research, 26</em>(5), 1383–1388. <a href="https://doi.org/10.1519/JSC.0b013e31825183c5">https://doi.org/10.1519/JSC.0b013e31825183c5</a></p>
+</li>
+<li>
+<p>Bartha, C., Petridis, L., Hamar, P., Puhl, S., &amp; Castagna, C. (2009). Fitness test results of Hungarian and international-level soccer referees and assistants. <em>Journal of Strength and Conditioning Research, 23</em>(1), 121–126. <a href="https://doi.org/10.1519/JSC.0b013e31818ebb84">https://doi.org/10.1519/JSC.0b013e31818ebb84</a></p>
+</li>
+<li>
+<p>Casajús, J. A., &amp; Castagna, C. (2007). Aerobic fitness and field test performance in elite Spanish soccer referees of different ages. <em>Journal of Science and Medicine in Sport, 10</em>(6), 382–389. <a href="https://doi.org/10.1016/j.jsams.2006.08.004">https://doi.org/10.1016/j.jsams.2006.08.004</a></p>
+</li>
+<li>
+<p>Castagna, C., Abt, G., &amp; D’Ottavio, S. (2002). Relation between fitness tests and match performance in elite Italian soccer referees. <em>Journal of Strength and Conditioning Research, 16</em>(2), 231–235. &lt;https://doi.org/10.1519/1533-4287(2002)016&lt;0231&gt;</p>
+</li>
+<li>
+<p>Castagna, C., Abt, G., &amp; D’Ottavio, S. (2005). Competitive-level differences in Yo-Yo intermittent recovery and twelve minute run test performance in soccer referees. <em>Journal of Strength and
+Conditioning Research, 26</em>(5), 805–809. <a href="https://doi.org/10.1519/R-14473.1">https://doi.org/10.1519/R-14473.1</a></p>
+</li>
+<li>
+<p>Castagna, C., Abt, G., &amp; D’Ottavio, S. (2007). Physiological aspects of soccer refereeing performance and training. <em>Sports Medicine, 37</em>(7), 625–646. <a href="https://doi.org/10.2165/00007256-200737070-00006">https://doi.org/10.2165/00007256-200737070-00006</a></p>
+</li>
+<li>
+<p>Castagna, C., Abt, G., D’Ottavio, S., &amp; Weston, M. (2005). Age-related effects on fitness performance in elite-level soccer referees. <em>Journal of Strength and Conditioning Research, 19</em>(4), 785–790. <a href="https://doi.org/10.1519/R-14984.1">https://doi.org/10.1519/R-14984.1</a></p>
+</li>
+<li>
+<p>Castagna, C., Bendiksen, M., Impellizzeri, F. M., &amp; Krustrup, P. (2012). Reliability, sensitivity and validity of the assistant referee intermittent endurance test (ARIET) – A modified Yo-Yo IE2 test for elite soccer assistant referees. <em>Journal of Sports Sciences, 30</em>(8), 767–775. <a href="https://doi.org/10.1080/02640414.2012.668705">https://doi.org/10.1080/02640414.2012.668705</a></p>
+</li>
+<li>
+<p>Castagna, C., Impellizzeri, F. M., Bizzini, M., Weston, M., &amp; Manzi, V. (2011). Applicability of a change of direction ability field test in soccer assistant referees. <em>Journal of Strength and Conditioning Research, 25</em>(3), 860–866. <a href="https://doi.org/10.1519/JSC.0b013e318208ae8e">https://doi.org/10.1519/JSC.0b013e318208ae8e</a></p>
+</li>
+<li>
+<p>Castillo, D., Cámara, J., Castellano, J., &amp; Yanci, J. (2016). Football match officials do not attain maximal sprinting speed during matches. <em>Kinesiology, 48</em>(2), 207–212. <a href="https://doi.org/10.26582/k.48.2.10">https://doi.org/10.26582/k.48.2.10</a></p>
+</li>
+<li>
+<p>Castillo, D., Cámara, J., Lozano, D., Berzosa, C., &amp; Yanci, J. (2019). The association between physical performance and match-play activities of field and assistants soccer referees. <em>Research in Sports Medicine, 27</em>(3), 283–297. <a href="https://doi.org/10.1080/15438627.2018.1534117">https://doi.org/10.1080/15438627.2018.1534117</a></p>
+</li>
+<li>
+<p>Castillo, D., Yanci, J., Casajús, J. A., &amp; Cámara, J. (2016). Physical fitness and physiological characteristics of soccer referees. <em>Science &amp; Sports, 31</em>(1), 27–35. <a href="https://doi.org/10.1016/j.scispo.2015.11.003">https://doi.org/10.1016/j.scispo.2015.11.003</a></p>
+</li>
+<li>
+<p>Cerqueira, M. S., Da Silva, A. I., &amp; Marins, J. C. B. (2011). Análise do modelo de avaliação física aplicado aos árbitros de futebol pela FIFA. <em>Revista Brasileira Medicina Do Esporte, 17</em>(6), 425–430. <a href="https://doi.org/10.1590/S1517-86922011000600012">https://doi.org/10.1590/S1517-86922011000600012</a></p>
+</li>
+<li>
+<p>Chamari, K., Hachana, Y., Ahmed, Y. B., Galy, O., Sghaïer, F., Chatard, J. C., Hue, O., &amp; Wisloff, U. (2004). Field and laboratory testing in young elite soccer players. <em>British Journal of Sports Medicine, 38</em>(2), 191–196. <a href="https://doi.org/10.1136/bjsm.2002.004374">https://doi.org/10.1136/bjsm.2002.004374</a></p>
+</li>
+<li>
+<p>Currell, K., &amp; Jeukendrup, A. E. (2008). Validity, reliability and sensitivity of measures of sporting performance. <em>Sports Medicine, 38</em>(4), 297–316. <a href="https://doi.org/10.2165/00007256-200838040-00003">https://doi.org/10.2165/00007256-200838040-00003</a></p>
+</li>
+<li>
+<p>D’Ottavio, S., &amp; Castagna, C. (2002). Analysis of match activities in elite soccer referees during actual match play. <em>Journal of Strength and Conditioning Research, 15</em>(2), 167–171. <a href="https://doi.org/10.1519/00124278-200105000-00003">https://doi.org/10.1519/00124278-200105000-00003</a></p>
+</li>
+<li>
+<p>FIFA. Fitness test for referees (men &amp; women) [Internet]. 2016. Available from: <a href="https://footballwest.com.au/wp-content/uploads/2016/12/FIFA-Fitness-Tests-for-Referees-version-2016.pdf">https://footballwest.com.au/wp-content/uploads/2016/12/FIFA-Fitness-Tests-for-Referees-version-2016.pdf</a></p>
+</li>
+<li>
+<p>Giacomo, G., Ellenbecker, T. S., &amp; Kibler, W. B. (Eds.). (2019). <em>Tennis Medicine: A Complete Guide to Evaluation, Treatment, and Rehabilitation</em>. Springer.</p>
+</li>
+<li>
+<p>Gonaus, C., Birklbauer, J., Lindinger, S. J., Stöggl, T. L., &amp; Müller, E. (2019). Changes over a decade in anthropometry and fitness of elite Austrian youth soccer players. <em>Frontiers in Physiology, 10</em>, 333. <a href="https://doi.org/10.3389/fphys.2019.00333">https://doi.org/10.3389/fphys.2019.00333</a></p>
+</li>
+<li>
+<p>Guerra, S. D. R., Rey, E., A., Kalén, A., &amp; Lago-Peñas, C. (2019). Age-related physical and technical match performance changes in elite soccer players. <em>Scandinavian Journal of Medicine &amp; Science in Sports, 29</em>(9), 1421–1427. <a href="https://doi.org/10.1111/sms.13463">https://doi.org/10.1111/sms.13463</a></p>
+</li>
+<li>
+<p>Harley, R., Banks, R., &amp; Doust, J. (2001). The development and evaluation of a task specific fitness test for association football referees. In W. Spinks, T. Reilly, &amp; A. Murphy (Eds.), <em>Science and football IV</em> (pp. 76–80). Routledge.</p>
+</li>
+<li>
+<p>Helsen, W., &amp; Bultynck, J. B. (2004). Physical and perceptual-cognitive demands of top-class referee ing in association football. <em>Journal of Sports Sciences, 22</em>(2), 179–189. <a href="https://doi.org/10.1080/02640410310001641502">https://doi.org/10.1080/02640410310001641502</a></p>
+</li>
+<li>
+<p>Hunter, S. K. (2016). The relevance of sex differences in performance fatigability. <em>Medicine and Science in Sports and Exercise, 48</em>(11), 2247–2256. <a href="https://doi.org/10.1249/MSS.0000000000000928">https://doi.org/10.1249/MSS.0000000000000928</a></p>
+</li>
+<li>
+<p>Krustrup, P., &amp; Bangsbo, J. (2001). Physiological demands of top-class soccer refereeing in relation to physical capacity: Effect of intense intermittent exercise training. <em>Journal of Sports Sciences, 19</em>(11), 881–891. <a href="https://doi.org/10.1080/026404101753113831">https://doi.org/10.1080/026404101753113831</a></p>
+</li>
+<li>
+<p>Lundsgaard, A. M., &amp; Kiens, B. (2014). Gender differences in skeletal muscle substrate metabolism - molecular mechanisms and insulin sensitivity. <em>Frontiers in Endocrinology, 5</em>, 195. <a href="https://doi.org/10.3389/fendo.2014.00195">https://doi.org/10.3389/fendo.2014.00195</a></p>
+</li>
+<li>
+<p>Mallo, J., Navarro, E., Aranda, J. M. G., &amp; Helsen, W. (2009). Activity profile of top-class association football referees in relation to fitness-test performance and match standard. <em>Journal of Sports Sciences, 27</em>(1), 9–17. <a href="https://doi.org/10.1080/02640410802298227">https://doi.org/10.1080/02640410802298227</a></p>
+</li>
+<li>
+<p>Mallo, J., Navarro, E., García-Aranda, J. M., Gilis, B., &amp; Helsen, W. (2007). Activity profile of top-class association football referees in relation to performance in selected physical tests. <em>Journal of Sports Sciences, 25</em>(7), 805–813. <a href="https://doi.org/10.1080/02640410600778602">https://doi.org/10.1080/02640410600778602</a></p>
+</li>
+<li>
+<p>Meckel, Y., Balikin, K., &amp; Eliakim, A. (2020). Pre- and mid-season repeated sprint ability of soccer referees from the first and second divisions. <em>International Journal of Sports Science &amp; Coaching, 15</em>(1), 82–90. <a href="https://doi.org/10.1177/1747954119887301">https://doi.org/10.1177/1747954119887301</a></p>
+</li>
+<li>
+<p>Milanović, Z., Sporiš, G., James, N., Trajković, N., Ignjatović, A., Sarmento, H., Trecroci, A., &amp; Mendes, B. M. B. (2017). Physiological demands, morphological characteristics, physical abilities and injuries of female soccer players. <em>Journal of Human Kinetics, 28</em>(60), 77–83. <a href="https://doi.org/10.1515/hukin-2017-0091">https://doi.org/10.1515/hukin-2017-0091</a></p>
+</li>
+<li>
+<p>Muniroglu, S., &amp; Subak, E. (2018a). A modified T-Test for football referees to test agility, quickness and sprint performances. <em>Journal of Education and Training Studies, 6</em>(5), 10–15. <a href="https://doi.org/10.11114/jets.v6i5.3131">https://doi.org/10.11114/jets.v6i5.3131</a></p>
+</li>
+<li>
+<p>Muniroglu, S., &amp; Subak, E. (2018b). A comparison of 5, 10, 30 meters sprint, modified T-Test, Arrowhead and Illinois agility tests on football referees. <em>Journal of Education and Training Studies, 6</em>(8), 70–76. <a href="https://doi.org/10.11114/jets.v6i8.3360">https://doi.org/10.11114/jets.v6i8.3360</a></p>
+</li>
+<li>
+<p>O’Reilly, J., &amp; Wong, S. H. S. (2012). The development of aerobic and skill assessment in soccer. <em>Sports Medicine, 42</em>(12), 1029–1040. <a href="https://doi.org/10.2165/11635120-000000000-00000">https://doi.org/10.2165/11635120-000000000-00000</a></p>
+</li>
+<li>
+<p>Riiser, A., Andersen, V., Castagna, C., Pettersen, S. A., Saeterbakken, A., Froyd, C., Ylvisaker, E., Naess Kjosnes, T., &amp; Fusche Moe, V. (2018). The construct validity of the CODA and repeated sprint ability tests in football referees. <em>International Journal of Sports Medicine, 39</em>(8), 619–624. <a href="https://doi.org/10.1055/a-0577-4073">https://doi.org/10.1055/a-0577-4073</a></p>
+</li>
+<li>
+<p>Sánchez-García, M., Sánchez-Sánchez, J., Rodríguez-Fernández, A., Solano, D., &amp; Castillo, D. (2018). Relationships between sprint ability and endurance capacity in soccer referees. <em>Sports, 6</em>(2), 28. <a href="https://doi.org/10.3390/sports6020028">https://doi.org/10.3390/sports6020028</a></p>
+</li>
+<li>
+<p>Scanlan, A. T., Tucker, P. S., &amp; Dalbo, V. J. (2015). The importance of open- and closed-skill agility for team selection of adult male basketball players. <em>The Journal of Sports Medicine and Physical Fitness, 55</em>(5), 390–396.</p>
+</li>
+<li>
+<p>Schmitz, B., Pfeifer, C., Kreitz, K., Borowski, M., Faldum, A., &amp; Brand, S. M. (2018). The Yo-Yo intermittent tests: A systematic review and structured compendium of test results. <em>Frontiers in Physiology, 9</em>, 870. <a href="https://doi.org/10.3389/fphys.2018.00870">https://doi.org/10.3389/fphys.2018.00870</a></p>
+</li>
+<li>
+<p>Sisic, N., Jelicic, M., Pehar, M., Spasic, M., &amp; Sekulic, D. (2016). Agility performance in high-level junior basketball players: The predictive value of anthropometrics and power qualities. <em>The Journal of Sports Medicine and Physical Fitness, 56</em>(7–8), 884–893.</p>
+</li>
+<li>
+<p>Stølen, T., Chamari, K., Castagna, C., &amp; Wisløff, U. (2005). Physiology of soccer: An update. <em>Sports Medicine, 35</em>(6), 501–536. <a href="https://doi.org/10.2165/00007256-200535060-00004">https://doi.org/10.2165/00007256-200535060-00004</a></p>
+</li>
+<li>
+<p>Trecroci, A., Longo, S., Perri, E., Iaia, F. M., &amp; Alberti, G. (2019). Field-based physical performance of elite and sub-elite middle-adolescent soccer players. <em>Research in Sports Medicine, 27</em>(1), 60–71. <a href="https://doi.org/10.1080/15438627.2018.1504217">https://doi.org/10.1080/15438627.2018.1504217</a></p>
+</li>
+<li>
+<p>Wallace, J. L., &amp; Norton, K. I. (2014). Evolution of World Cup soccer final games 1966-2010: Game structure, speed and play patterns. <em>Journal of Science and Medicine in Sport, 17</em>(2), 223–228. <a href="https://doi.org/10.1016/j.jsams.2013.03.016">https://doi.org/10.1016/j.jsams.2013.03.016</a></p>
+</li>
+<li>
+<p>Weston, M., &amp; Brewer, J. (2002). A study of the physiological demands of soccer refereeing. <em>Journal of Sports Sciences, 20</em>(1), 59–60. <a href="https://doi.org/10.1080/026404102317126164">https://doi.org/10.1080/026404102317126164</a></p>
+</li>
+<li>
+<p>Weston, M., Castagna, C., Helsen, W., &amp; Impellizzeri, F. (2009). Relationships among field-test measures and physical match performance in elite-standard soccer referees. <em>Journal of Sports Sciences, 27</em>(11), 1177–1184. <a href="https://doi.org/10.1080/02640410903110982">https://doi.org/10.1080/02640410903110982</a></p>
+</li>
+<li>
+<p>Weston, M., Castagna, C., Impellizzeri, F. M., Bizzini, M., Williams, A. M., &amp; Gregson, W. (2012). Science and medicine applied to soccer refereeing: An update. <em>Sports Medicine, 42</em>(7), 615–631. <a href="https://doi.org/10.2165/11632360-000000000-00000">https://doi.org/10.2165/11632360-000000000-00000</a></p>
+</li>
+<li>
+<p>Yanci, J., Los Arcos, A., Grande, I., &amp; Casajús, J. A. (2016). Change of direction ability test differentiates higher level and lower level soccer referees. <em>Biology of Sport, 33</em>(2), 173–177. <a href="https://doi.org/10.5604/20831862.1198637">https://doi.org/10.5604/20831862.1198637</a></p>
+</li>
+</ol>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="conclusions.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="conclusions.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
