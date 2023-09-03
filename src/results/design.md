@@ -1,7 +1,31 @@
 # 设计与样本
 
-Sample sizes ranged from 11 to 2459 FRs and ARs. Participants were elite officials in nine studies, amateur or sub-elite officials in four studies, and both elite and sub-elite in seven studies. None of the selected studies included female referees. A total of 13 studies (Table 1) analysed the psychometric properties of the physical fitness field-based tests proposed by FIFA (aerobic endurance, n = 8; anaerobic endurance, n = 3; and speed, n = 8), while seven investigations (Table 2) focused on physical fitness field-based tests specifically designed for assessing aerobic endurance (n = 1) or change of direction (COD) (n = 6).
+研究样本容量从 11 名裁判员到 2459 名裁判员不等，其中 9 项研究针对精英裁判员，4 项研究针对业余或次级精英裁判员，7 项研究针对精英和次级精英裁判员。
 
-**Table 1.** Included studies assessing FIFA field-based tests for referees.
+所有研究均未考虑女裁判员。
 
-**Table 2.** Included studies assessing physical fitness field-based tests for referees.
+共有 13 项研究（见表 1）分析了国际足联场地体能测试的心理测量学特征（有氧耐力，n = 8；无氧耐力，n = 3；速度，n = 8），另有 7 项研究（见表 2）关注其它用于评估有氧耐力（n = 1）和变相能力（n = 6）的体能测试。
+
+***表 1.** 国际足联裁判员场地体能测试研究一览*
+
+|研究项目|研究目标|样本|体能测试|体能类别|可靠性|效度|
+|:-----:|------|----|------|:-----:|:---:|---|
+|<div style="width:100pt">Meckel, Balikin & Eliakim (2019)</div>|<div style="width:150pt">1. 研究主裁和助理裁判员在赛季初和赛季中的反复冲刺能力（RSA）<br>2. 研究裁判员年龄与其反复冲刺能力的关系</div>|<div style="width:150pt">共 78 名男性精英裁判员<br><br>**主裁 (n = 27)**<br>第一梯队<br>(n = 17; 年龄 = 36.0 ± 5.6 )<br>第二梯队<br>(n = 10; 年龄 = 26.8 ± 2.2 )<br><br>**助理裁判员 (n = 51)**<br>第一梯队<br>(n = 23; 年龄 = 36.3 ± 5.1 )<br>第二梯队<br>(n = 28; 年龄 = 31.3 ± 3.4 )</div>|<div style="width:120pt">**主裁：**<br>反复冲刺测试（RST）（6x40m，冲刺间休息 1 分 30 秒）<br><br>**助理裁判员：**<br>反复冲刺测试（RST）（5x30m，冲刺间休息 30 秒）</div>|<div style="width:100pt">无氧耐力</div>|N/R[^1]|<div style="width:210pt">**建构效度：**<br>• 在赛季前和赛季中，第二梯队主裁的最快冲刺时间（IS[^2]）和总冲刺时间（TS[^3]）明显快于第一梯队（p <0.05）；<br> • 在赛季前和赛季中，第一梯队和第二梯队的助理裁判员的冲刺时间没有显著差异（p > 0.05）。<br><br>**聚合效度：**<br>主裁年龄 vs RST (IS)<br>(r = 0.63; p < 0.001)<br>主裁年龄 vs RST (TS)<br>(r = 0.65; p < 0.001)<br>助理裁判员年龄 vs RST (IS)<br>(r = 0.34; p < 0.05)<br>助理裁判员年龄 vs RST (TS)<br>(r = 0.36; p < 0.05)</div>|
+|Muniroglu and Subak (2018a)|对比修改版的 T-测试[^4]成绩与 10 米、30 米冲刺测试成绩|72 名男性业余裁判员<br>年龄 = 25.8 ± 3.0|10 米冲刺测试<br>30 米冲刺测试<br>T-测试|速度<br>灵活性|N/R|**聚合效度：**<br>10 米 vs 30 米 (r = 0.66; p < 0.01)<br>10 米 vs T-测试 (r = 0.22; p < 0.01)<br>30 米 vs T-测试 (r = 0.27; p < 0.01)|
+|Muniroglu and Subak (2018b)|比较 5 米冲刺、10 米冲刺、30 米冲刺、箭头灵活性测试（AAT）、T-测试和伊利诺伊灵活性测试（IAT）|72 名男性业余裁判员<br>年龄 = 23.5 ± 2.6|5 米冲刺测试<br>10 米冲刺测试<br>30 米冲刺测试<br>T-测试<br>箭头灵活性测试（AAT）<br>伊利诺伊灵活性测试（IAT）|速度<br>灵活性|N/R|**聚合效度：**<br>5 米 vs 10 米 (r = 0.72; p < 0.01)<br>5 米 & 10 米 vs 30 米 ( r 值分别为 0.62 和 0.84; p < 0.01)<br>5 米 & 10 米 & 30 米 vs T-测试<br>( r 值分别为 0.72; 0.42; 0.48; p < 0.01)<br>5 米 & 10 米 & 30 米 vs AAT<br>( r 值分别为 0.38; 0.57; 0.70; p < 0.01)<br>5 米 & 10 米 & 30 米 vs IAT<br>( r 值分别为 0.39; 0.60; 0.75; p < 0.01)<br>T-测试 vs AAT & IAT<br>( r 值分别为 0.50; 0.61; p < 0.01)<br>AAT vs IAT ( r = 0.79; p < 0.01)|
+|Sánchez-García et al. (2018)|分析冲刺能力（40 米冲刺测试）与耐力（YYIR1[^5]）之间的关系|23 名男性业余裁判员<br>年龄 = 24 ± 5|Yo-Yo 间歇跑测试（级别一）(YYIR1)<br>40 米冲刺测试|有氧耐力<br>速度|N/R|**聚合效度：**<br>40 米（Vmax[^6]）vs YYIR1（距离）<br>(r = −0.40; p < 0.05)<br>40 米（时间）vs YYIR1（距离）<br>(r = −0.17; p > 0.05)<br>40 米（时间）vs 40 米（Vmax）<br>(r = −0.26; p > 0.05)|
+|Bartha et al. (2009)|探究国际足联体能测试能否为区分不同竞技水平的裁判员提供可靠依据|
+
+[^1]: N/R = not reported 报告未说明
+
+[^2]: IS = ideal sprint (time) 最快冲刺时间
+
+[^3]: TS = total accumulated sprinting time 总冲刺时间
+
+[^4]: 灵活性 T-测试是一种常用于评估运动员/个人向前、向后和左右移动能力的测试。<https://tools.city/q-and-a/ja043l5g>
+
+[^5]: YYIR1 = Yo-Yo intermittent recovery level 1 Yo-Yo 间歇跑测试（级别一）
+
+[^6]: Vmax = maximum velocity (km/h) 最大速度（千米/时）
+
+***表 2.** 其它裁判员场地体能测试研究一览*

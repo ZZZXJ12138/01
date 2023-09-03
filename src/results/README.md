@@ -1,6 +1,9 @@
 # 研究结果
 
-A total of 113 studies were initially obtained. After removal of duplicate results, and those not related to the main aim of this review, 30 investigations were selected. After reading their full texts, 20 studies about the psychometric properties of field-based physical fitness tests in soccer referees were finally included for a complete analysis (Figure 1).
+初始检索共获得 113 项研究。剔除重复结果和与本综述主要目标无关的研究后，选定 30 项研究。在浏览全文后，最终确定 **20** 项有关足球裁判员场地体能测试心理测量学特征的研究，以供全面分析（见图 1）。
 
-![flowchart](../figures/flowchat.jpg)
-**Figure 1.** Flowchart of the search and selection process for inclusion of studies.
+<figure align="center">
+    <img src="../figures/flowchart.png" width="90%">
+
+<i><b>图 1.</b> 检索与选择研究样本的流程图</i>
+</figure>

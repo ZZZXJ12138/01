@@ -21,11 +21,12 @@
 2. 研究其它足球范式（美式足球、澳式足球、室内足球）；
 3. 使用西班牙语、葡萄牙语和英语以外的语言。
 
-
 ## 样本过滤
 
-One author examined titles and abstracts identified during the search. If the information provided by the title and abstract suggested that the study met the selection criteria, the full text was examined. Doubts about inclusions were discussed with a second author until a consensus was reached.
+在检索期间，一名研究人员会对收集到的研究标题和摘要进行核查。如果标题和摘要提供的信息表明该研究符合备选标准，则继续对全文进行核查。研究人员在核查过程中如有疑问，将与第二位研究人员进行商讨，得出最终结论。
 
 ## 数据提取
 
-The authors of this review evaluated all included studies. General information about the title of the study, authors, journal, and publication details were extracted. They also gathered data concerning characteristics of the participants’ age and sex (when these data were reported), soccer fitness test performed, and information related to their reliability and/or validity (the population with which they were tested, the method to identify them, and the type of statistical analysis and its coefficients). Discrepancies were resolved by a second author. The bibliography in all selected studies was analysed in search of new evidence.
+本文作者对所有被选中的研究进行了评估，提取其**研究标题**、**作者**、**期刊**、**出版详情**等信息。同时，作者还收集了测试参与者的年龄和性别信息[^1]，进行的足球体能测试项目，以及有关其可靠性和/或效度的信息，例如被测人群的信息、被测人群的选择标准、测试的统计分析方式及其系数。不确定之处将交由第二位作者进行判断。此外，本文作者还分析了所有研究的参考文献，以求获取更多的相关研究。
+
+[^1]:如研究报告提供了该数据
