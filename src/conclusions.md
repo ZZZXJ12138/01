@@ -1,3 +1,3 @@
 # 结论
 
-After revising the existing evidence, we suggest using the ARIET, the 50-m sprint test and the MAT to assess cardiorespiratory fitness, speed, and COD in referees. The obtained results indicate that there is a lack of research focused on assistant and female referees, as well as on the psychometric properties of anaerobic endurance tests. This is a scientific gap that should be addressed in future studies.
+在回顾现有研究的基础上，笔者建议使用助理裁判员间歇耐力测试（ARIET）、50 米冲刺测试和修改版灵活性 T-测试（MAT）来评估裁判员的心肺耐力、速度和变向能力。所得结果表明，目前仍缺乏针对助理裁判员和女性裁判员的研究，以及关于无氧耐力测试的心理测量学特征的研究。这是未来研究应当解决的一个缺口。

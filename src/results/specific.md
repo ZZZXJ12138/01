@@ -1,9 +1,9 @@
 # 其它体能测试
 
-## Cardiorespiratory fitness tests
-One study (Castagna et al., 2012) examined the Assistant Referee Intermittent Endurance test (ARIET) in terms of relative reliability, with a high intraclass correlation coefficient (ICC) of 0.98; absolute reliability (4.3%CV); criterion validity (0.78, ARIET vs VO<sub>2max</sub>); convergent validity (0.95, ARIET vs YYIE1); and construct validity, showing that the ARIET was able to discriminate between assistant referees of different competitive levels (p < 0.05).
+## 心肺耐力测试
+**一项**研究（Castagna 等，2012）对助理裁判员间歇耐力测试（ARIET）的**相对可靠度**进行评估，得到的组内相关系数（ICC）高达 0.98；**绝对可靠度**为 4.3%CV；**准则效度** 0.78（ARIET vs 室内跑 VO<sub>2max</sub>）；**聚合效度** 0.95（ARIET vs YYIR1）；**建构效度**表明 ARIET 能够区分不同竞技水平的助理裁判员（p < 0.05）。
 
-## Change of Direction tests
-Six studies analysed the psychometric properties of five different COD tests, including the Modified Agility T-test Free (MATF), the Change of Direction Ability (CODA) test, the Modified Agility test (MAT), the 10-8-8-10 test and the New Football Referees test (New FR test). Two studies analysed reliability (Castagna et al., 2011; Yanci et al., 2016). They reported a relative reliability (ICC) of 0.89 and 0.90 for MAT and 10-8-8-10 test, respectively, whereas the absolute reliability, which was assessed by means of TEM, showed a 4.23%CV for MAT and 0.21%CV for 10-8-8-10 test.
+## 变向能力测试
+共**六个**研究分析了**五项**变向能力测试的心理测量学特征，包括修改版自由式灵活性 T-测试（MATF）、变向能力测试（CODA）、修改版灵活性 T-测试（MAT）、10-8-8-10 测试和一项新的足球裁判员测试。两个研究（Castagna 等，2011；Yanci 等，2016）分析了测试的可靠性：MAT 和 10-8-8-10 测试的相对可靠度（**ICC**）分别为 0.89 和 0.90，指示绝对可靠度的 **TEM** 值分别为 4.23%CV 和 0.21%CV。
 
-On the other hand, all the studies (Castagna et al., 2011; Castillo, Cámara, et al., 2016; Castillo et al., 2019; Harley et al., 2001; Riiser et al., 2018; Yanci et al., 2016) informed about the tests’ validity. Convergent validity ranged from 0.61 (MAT) to 0.82 (New FR test). Regarding the construct validity, the MAT and the 10-8-8-10 test were valid to discriminate between referees’ levels, while the MATF test showed a significant association with referees’ age. Likewise, the MATF showed to be able to detect changes in test performance by age, with the younger referees achieving lower execution times than their older counterparts (p < 0.05).
+此外，所有研究（Castagna 等，2011；Castillo 等，2016；Castillo 等，2019；Harley 等，2001；Riiser 等，2018；Yanci 等，2016）均提及测试的效度。**聚合效度**范围从 0.61（MAT）到 0.82（新的足球裁判员测试）。从**建构效度**来看，MAT 和 10-8-8-10 测试能够有效区分不同水平的裁判员，而 MATF 则与裁判员的年龄显著相关。它的测试结果随裁判员的年龄而变化；年轻裁判员的测试用时低于年龄较大的裁判员（p < 0.05）。
